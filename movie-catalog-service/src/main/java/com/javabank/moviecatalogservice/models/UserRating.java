@@ -5,7 +5,11 @@ import java.util.List;
 
 public class UserRating {
 
-    private String userId;
+    private UserRating() {
+		super();
+	}
+
+	private String userId;
     private List<Rating> ratings;
 
     public String getUserId() {
